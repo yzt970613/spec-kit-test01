@@ -1,0 +1,35 @@
+﻿---
+description: Project Development Guidelines
+globs: ["**/*"]
+alwaysApply: true
+---
+# spec-kit-test01 Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2026-03-10
+
+## Active Technologies
+
+- TypeScript 5.x + Vue 3.x, Vue Router 4.x, Less, Tailwind CSS 3.x, Vant 4.x (001-component-template-center)
+
+## Project Structure
+
+```text
+backend/
+frontend/
+tests/
+```
+
+## Commands
+
+npm test; npm run lint
+
+## Code Style
+
+TypeScript 5.x: Follow standard conventions
+
+## Recent Changes
+
+- 001-component-template-center: Added TypeScript 5.x + Vue 3.x, Vue Router 4.x, Less, Tailwind CSS 3.x, Vant 4.x
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->
