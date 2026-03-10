@@ -59,3 +59,10 @@ covers the requested interaction templates.
 
 - Add unit tests for template registry integrity if registry-driven rendering is extracted.
 - Add unit tests for list state transitions if refresh/load-more behavior is implemented in a reusable composable.
+
+## Latest Verification
+
+- `2026-03-10`: `pnpm build` passed.
+- `2026-03-10`: `pnpm test` passed with 2 unit tests in `tests/unit/useListDemo.spec.ts`.
+- Browser-based manual walkthrough is still recommended to visually confirm route transitions,
+  list gestures, and confirmation dialog behavior.
